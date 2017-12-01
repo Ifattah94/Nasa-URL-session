@@ -14,6 +14,8 @@
 		81DBA1231FD1AD3000079FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DBA1211FD1AD3000079FB3 /* LaunchScreen.storyboard */; };
 		81DBA12E1FD1AD3100079FB3 /* URLSession_NasaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBA12D1FD1AD3100079FB3 /* URLSession_NasaTests.swift */; };
 		81DBA1391FD1AD3100079FB3 /* URLSession_NasaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBA1381FD1AD3100079FB3 /* URLSession_NasaUITests.swift */; };
+		81DBA1471FD1AF0900079FB3 /* NASAObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBA1461FD1AF0900079FB3 /* NASAObject.swift */; };
+		81DBA1491FD1C1A200079FB3 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBA1481FD1C1A200079FB3 /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		81DBA1341FD1AD3100079FB3 /* URLSession NasaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSession NasaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DBA1381FD1AD3100079FB3 /* URLSession_NasaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_NasaUITests.swift; sourceTree = "<group>"; };
 		81DBA13A1FD1AD3100079FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DBA1461FD1AF0900079FB3 /* NASAObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAObject.swift; sourceTree = "<group>"; };
+		81DBA1481FD1C1A200079FB3 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				81DBA1181FD1AD3000079FB3 /* AppDelegate.swift */,
 				81DBA11A1FD1AD3000079FB3 /* ViewController.swift */,
 				81DBA11C1FD1AD3000079FB3 /* Main.storyboard */,
+				81DBA1481FD1C1A200079FB3 /* NetworkHelper.swift */,
+				81DBA1461FD1AF0900079FB3 /* NASAObject.swift */,
 				81DBA11F1FD1AD3000079FB3 /* Assets.xcassets */,
 				81DBA1211FD1AD3000079FB3 /* LaunchScreen.storyboard */,
 				81DBA1241FD1AD3000079FB3 /* Info.plist */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DBA1491FD1C1A200079FB3 /* NetworkHelper.swift in Sources */,
 				81DBA11B1FD1AD3000079FB3 /* ViewController.swift in Sources */,
+				81DBA1471FD1AF0900079FB3 /* NASAObject.swift in Sources */,
 				81DBA1191FD1AD3000079FB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,3 +7,10 @@
 //
 
 import Foundation
+class NetworkHelper {
+    private init() {}
+    static let manager = NetworkHelper()
+    func performDataTask(with url: URL, completionHandler: (Data) -> Void, errorHandler: (Error) -> Void) {
+        
+    }
+}

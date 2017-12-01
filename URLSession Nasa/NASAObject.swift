@@ -7,3 +7,8 @@
 //
 
 import Foundation
+struct NASAObject: Codable {
+    let title: String
+    let hdurl: String?
+    let url: String 
+}
